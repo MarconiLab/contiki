@@ -1,0 +1,22 @@
+DEFINES+=PROJECT_CONF_H=\"project-conf.h\"
+CONTIKI_PROJECT = ubidots-demo-cc2650_full
+
+APPS = ubidots
+
+//UBIDOTS_WITH_AUTH_TOKEN=71ebf8f4f240c1521c65efc66e23b7772d5ca8ba
+UBIDOTS_WITH_AUTH_TOKEN=irUkxm156raVSyfCQuJakEY47JmtIN
+
+ifdef UBIDOTS_WITH_AUTH_TOKEN
+  DEFINES+=UBIDOTS_CONF_AUTH_TOKEN=\"$(UBIDOTS_WITH_AUTH_TOKEN)\"
+endif
+
+all: $(CONTIKI_PROJECT)
+
+CONTIKI_WITH_IPV6 = 1
+
+CONTIKI = ../../..
+
+include $(CONTIKI)/Makefile.include
+
+
+
