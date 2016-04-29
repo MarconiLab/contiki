@@ -44,13 +44,13 @@
 #define BUTTON_SENSOR_CONF_ENABLE_SHUTDOWN    0
 /*---------------------------------------------------------------------------*/
 /* User configuration */
-#define UBIDOTS_DEMO_CONF_TEMPERATURE   "56eff4037625422d8ea6d687" //ambient temp
-#define UBIDOTS_DEMO_CONF_SEQUENCE      "56eff40a7625422d5218bf66" //sequence
-#define UBIDOTS_DEMO_CONF_PRESS  	"5706798f7625422aef941095" //press
-#define UBIDOTS_DEMO_CONF_HUM 		"570679a47625422b6d5f7173" //hum
-#define UBIDOTS_DEMO_CONF_LUX 		"57067b10762542359e529344" //light
-#define UBIDOTS_DEMO_CONF_BATT 		"57067ba276254239fa8e5552" //Volt
-#define UBIDOTS_DEMO_CONF_TOBJ 		"57067bf07625423ba2dc4f8c"// tempobject
+#define UBIDOTS_DEMO_CONF_TEMPERATURE   "xxx" //ambient temp
+#define UBIDOTS_DEMO_CONF_SEQUENCE      "xxx" //sequence
+#define UBIDOTS_DEMO_CONF_PRESS  	"xxx" //press
+#define UBIDOTS_DEMO_CONF_HUM 		"xxx" //hum
+#define UBIDOTS_DEMO_CONF_LUX 		"xxx" //light
+#define UBIDOTS_DEMO_CONF_BATT 		"xxx" //Volt
+#define UBIDOTS_DEMO_CONF_TOBJ 		"xxx"// tempobject
 
 #define UBIDOTS_CONF_IN_BUFFER_SIZE    1024
 /*---------------------------------------------------------------------------*/
